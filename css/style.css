@@ -59,6 +59,12 @@ blockquote cite {
     color: #333333;
 }
 
+.leader {
+
+    text-transform: uppercase;
+}
+
+
 /*-- Styling Links --*/
  a {
     color:rgb(112, 3, 213);
@@ -135,6 +141,14 @@ table, td {
 }
 
 
+hr {
+    margin: 100px 0;
+    height: 1px;
+    background-color: lightsalmon;
+    color: rgb(84, 2, 160);
+    border: 0 none;
+}
+
 
 
 /*-- Styling the footer --*/
@@ -144,3 +158,48 @@ footer {
     font-size: 0.8rem;
     padding-bottom: 4rem;
 }
+
+footer {
+    background: #030307;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #f7f7f7;
+    padding: 4em 0 3em 0
+    }
+    
+    footer p {
+    margin: .5em
+    }
+    
+    .connections{
+    position: relative;
+    margin: 0 auto;
+    }
+    .connections ul{
+    margin: 0;
+    padding: 0;
+    }
+    .connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    }
+    .connections a:link{
+    border-bottom: none;
+    }
+    .connections img,
+    .connections svg{
+    border: none;
+    }
+    .connections a:hover img,
+    .connections a:hover svg{
+    border-bottom: none;}
+    .connections svg {
+    margin: 1em auto;}
+    .connections a:hover svg path {
+    fill: #D8C385;
+    transition: all 0.2s ease-in-out;}
+    footer .connections a:hover svg path {
+    fill: #D8C385;
+    transition: all 0.2s ease-in-out;}
