@@ -76,6 +76,13 @@ blockquote cite {
     border-bottom: 1px dotted;
  }
 
+.gridimage { 
+display: grid;
+column-gap: 10px;
+grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); 
+
+}
+
 /*-- Navigation --*/
 
 nav {
@@ -168,7 +175,7 @@ footer {
     }
     
     footer p {
-        width: 100%;
+        width: 80%;
         margin: auto;
     }
     
