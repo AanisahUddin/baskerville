@@ -9,6 +9,13 @@
 
 /*-- Start main styling --*/
 
+div.horizontal_menu ul{
+    list-style-type: none;
+    margin:5px;
+    padding:5px;
+    display:block;
+}
+
 body {
     background: #f7f7f7;
     color: #333333;
